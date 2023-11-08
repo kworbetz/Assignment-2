@@ -22,6 +22,7 @@ section {
 .ranks {
   display: block;
   font-size: 40px;
+  text-align: left;
 }
 
 
@@ -77,7 +78,7 @@ svg {
 
 @media screen and (max-width: 800px) {
   section {
-    height: 45vh;
+    height: auto;
   }
 
   .selector {
@@ -114,9 +115,16 @@ svg {
 
 .content {
   transition: max-height 0.2s ease-out;
+  text-align: left;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.discription{
+  font-size: medium;
+  text-align: left;
+
 }
